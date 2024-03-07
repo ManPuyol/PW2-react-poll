@@ -10,7 +10,7 @@ function Poll() {
 
   // Función para añadir un voto a una opción específica
   const addVote = (option) => {
-    // TODO: Implementa la lógica para añadir un voto a la opción especificada
+    setVotes({...votes, [option]: votes[option] + 1})
   };
 
   return (

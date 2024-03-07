@@ -1,5 +1,5 @@
 import React from 'react';
-import Poll from './Poll';
+import Poll from './Poll.tsx';
 
 function App() {
   return (
